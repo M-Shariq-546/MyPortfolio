@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Django Specialized Web Application';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved to MS Web Devs.';
 
   return {
     name,
